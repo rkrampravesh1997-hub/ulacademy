@@ -1,15 +1,39 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>UL Academy - My Portfolio</title>
-</head>
-<body>
-    <h1>Welcome to UL Academy</h1>
-    <p>Hi, I am a B.Tech ECE Student at GBU. This is my professional portfolio.</p>
-    <ul>
-        <li>Electronics & Communication</li>
-        <li>AI & ML Projects</li>
-        <li>Hardware Prototypes</li>
-    </ul>
-</body>
-</html>
+<style>
+  body {
+    background-color: #0d1117; /* GitHub Dark Theme */
+    color: #c9d1d9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    transition: 0.3s;
+  }
+  .card:hover {
+    border-color: #58a6ff; /* Neon Blue Glow */
+    box-shadow: 0 0 15px rgba(88, 166, 255, 0.2);
+  }
+  .tech-button {
+    background-color: #238636;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+</style>
+
+<div class="card">
+  <h2>Math Solver</h2>
+  <p>Solve Matrix, Calculus, and Algebra problems instantly.</p>
+  <button class="tech-button">Open Solver</button>
+</div>
+
+<div class="card">
+  <h2>Physics Lab</h2>
+  <p>Circuit Analysis & Kinematics tools for ECE students.</p>
+  <button class="tech-button">Explore Lab</button>
+</div>
